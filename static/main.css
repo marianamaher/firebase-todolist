@@ -1,0 +1,55 @@
+.container-fluid {
+  background-color: #f3f3f3;
+  height: 100vh;
+}
+
+.title{
+  text-align: center;
+  color: darkblue;
+}
+
+.box-wrapper{
+  text-align: center;
+}
+
+.list-item-box{
+  width: 400px;
+}
+
+#delete_button{
+  background-color: rgb(166, 60, 60);
+  color:#ffffff;
+  width: 20px;
+  height: 22px;
+  text-align: center;
+  border-radius: 70%;
+  margin-bottom: 5px;
+}
+
+.display-task-area{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-left: 50px;
+  background-color: #e9eff3;
+  /* padding: 5px; */
+}
+
+.display_results{
+  align-items: center;
+  justify-content: center;
+}
+
+#edit_button{
+  background-color: lightgray;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+#submit_button{
+  background-color: rgb(176, 228, 174);
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}

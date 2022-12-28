@@ -1,0 +1,39 @@
+
+{% extends "layout.html" %}
+
+{% block content %}
+
+<script type="text/javascript" src="{{ url_for('static', filename = 'home_page.js') }}"></script>
+
+<script>
+    let tasks = {{tasks|tojson}} 
+    
+</script>
+
+
+    <div class="container-fluid">
+        <br>
+        <div class="title">
+            <h1>Add, Edit, or Delete an item: </h1>
+        </div>
+        <br>
+        <div class="box-wrapper">
+            <input type="text" class="list-item-box" placeholder="Add a task">
+            <button id="add-button">Add</button>
+        </div>
+        <br>
+        <br>
+        <div class="row display_results">
+            <div class="col-md-4 display-task-area d-flex flex-column">
+            </div>
+            <div class="col-md-1 edit_button_area d-flex flex-column">
+            </div>
+            <div class="col-md-1 delete_button_area d-flex flex-column"></div>
+
+        </div>
+    </div>
+    
+        
+
+
+{% endblock %}
